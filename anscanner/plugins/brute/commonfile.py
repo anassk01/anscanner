@@ -1,9 +1,9 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 #
-# @name:    anscan - Web Application Scanner
-# @repo:    https://github.com/--/anscan
-# @author:  anassk (--)
+# @name:    Wascan - Web Application Scanner
+# @repo:    https://github.com/anassk01/anscanner/blob/master/anscanner/
+# @author:  Momo Outaadi (M4ll0k)
 # @license: See the file 'LICENSE.txt'
 
 from os import path
@@ -43,7 +43,7 @@ class commonfile(Request):
 	def search(self):
 		""" search data path """
 		realpath = path.join(path.realpath(__file__).split('plugins')[0],"lib/db/")
-		return (realpath + "commonfile.anscan")
+		return (realpath + "commonfile.wascan")
 
 class ThreadBrute(Thread):
 	""" Bruteforcer """
