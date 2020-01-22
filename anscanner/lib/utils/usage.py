@@ -1,9 +1,9 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 #
-# @name:    anscan - Web Application Scanner
-# @repo:    https://github.com/--/anscan
-# @author:  anassk (--)
+# @name:    Wascan - Web Application Scanner
+# @repo:    https://github.com/anassk01/anscanner/blob/master/anscanner/
+# @author:  Momo Outaadi (M4ll0k)
 # @license: See the file 'LICENSE.txt'
 
 from lib.utils.colors import * 
@@ -19,9 +19,9 @@ class usage:
 		print "%s|  |  |  |       |__     ||  __|  _  |     |%s"%(YELLOW%(0),RESET)
 		print "%s|________|___|___|_______||____|___._|__|__|%s"%(YELLOW%(0),RESET)
 		print "                                      %s%s%s"%(YELLOW%(1),VERSION,RESET)
-		print "      %sanscan - Web Application Scanner%s      "%(WHITE%(0),RESET)
+		print "      %sWAScan - Web Application Scanner%s      "%(WHITE%(0),RESET)
 		print "           C0d3n4m3: %sATLAS%s                  "%(RED%(1),RESET)
-		print "          %sanassk (--)%s             "%(WHITE%(0),RESET)
+		print "          %sMomo Outaadi (m4ll0k)%s             "%(WHITE%(0),RESET)
 		print mx+"\n"
 
 	def basic(self,_exit_=True):
@@ -61,5 +61,5 @@ class usage:
 		print "\t%s --url http://www.site.com/index.php --data \"id=1\" --method POST --scan [1,4]"%NAME
 		print "\t%s --url http://www.site.com/index.php?id=1 --scan [1,4] --headers \"Host: site.com,...\""%NAME
 		print "\t%s --url http://www.site.com/ --scan [0,2,4] --proxy 10.10.10.10:80 --proxy-auth \"root:1234\"\n"%NAME
-		print "See this page https://github.com/--/anscan for more examples\n"
+		print "See this page https://github.com/anassk01/anscanner/blob/master/anscanner/ for more examples\n"
 		if _exit_: exit(0)

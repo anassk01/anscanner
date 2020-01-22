@@ -1,30 +1,30 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 #
-# @name:    anscan - Web Application Scanner
-# @repo:    https://github.com/--/anscan
-# @author:  anassk (--)
+# @name:    Wascan - Web Application Scanner
+# @repo:    https://github.com/anassk01/anscanner/blob/master/anscanner/
+# @author:  Momo Outaadi (M4ll0k)
 # @license: See the file 'LICENSE.txt'
 
 from urllib2 import HTTPError
 
-class anscanUnboundLocalError(UnboundLocalError):
+class WascanUnboundLocalError(UnboundLocalError):
 	pass
 
-class anscanDataException(Exception):
+class WascanDataException(Exception):
 	pass
 
-class anscanNoneException(Exception):
+class WascanNoneException(Exception):
 	pass
 
-class anscanInputException(Exception):
+class WascanInputException(Exception):
 	pass
 
-class anscanGenericException(Exception):
+class WascanGenericException(Exception):
 	pass
 
-class anscanConnectionException(HTTPError):
+class WascanConnectionException(HTTPError):
 	pass
 
-class anscanKeyboardInterrupt(KeyboardInterrupt):
+class WascanKeyboardInterrupt(KeyboardInterrupt):
 	pass
