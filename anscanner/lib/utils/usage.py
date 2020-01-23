@@ -14,14 +14,13 @@ class usage:
 	def banner(self):
 		mx = "_"*50
 		print mx
-		print "%s ________ _______ _______                   %s"%(YELLOW%(0),RESET)
-		print "%s|  |  |  |   _   |     __|.----.---.-.-----.%s"%(YELLOW%(0),RESET)
-		print "%s|  |  |  |       |__     ||  __|  _  |     |%s"%(YELLOW%(0),RESET)
-		print "%s|________|___|___|_______||____|___._|__|__|%s"%(YELLOW%(0),RESET)
+		print "%s|     __|.----.---.-.-----.%s"%(YELLOW%(0),RESET)
+		print "%s|__     ||  __|  _  |     |%s"%(YELLOW%(0),RESET)
+		print "%s|_______||____|___._|__|__|%s"%(YELLOW%(0),RESET)
 		print "                                      %s%s%s"%(YELLOW%(1),VERSION,RESET)
-		print "      %sWAScan - Web Application Scanner%s      "%(WHITE%(0),RESET)
-		print "           C0d3n4m3: %sATLAS%s                  "%(RED%(1),RESET)
-		print "          %sMomo Outaadi (m4ll0k)%s             "%(WHITE%(0),RESET)
+		print "      anscanner - Web Application Scanner      "
+		print "              anassk                  "
+		print "            yassir ansari             "
 		print mx+"\n"
 
 	def basic(self,_exit_=True):
